@@ -4,7 +4,7 @@
     grid-template-rows: auto;
     grid-template-areas: 
     "navbar navbar navbar"
-    "heading_1 heading_1 heading_1"
+    "banner banner banner"
     "text_1 text_1 text_1"
     "box_1 box_2 box_3"
     "box_4 box_5 box_6"
@@ -17,8 +17,8 @@
     grid-area: navbar;
 }
 
-.heading_1 {
-    grid-area: heading_1;
+.banner {
+    grid-area: banner;
 }
 
 .text_1 {
