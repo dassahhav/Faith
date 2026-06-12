@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "heading_1 heading_1 heading_1"
+    "box_1 box_2 box_3"
+    "box_4 box_5 box_6"
+    "box_7 box_8 box_9"
+    "footer footer footer";
+}
+
+.navbar {
+    grid-area: navbar;
+}
