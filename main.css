@@ -15,12 +15,72 @@
 
 .navbar {
     grid-area: navbar;
+    text-decoration: none;
+    background: grey; 
+    font-family: sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block
+}
+
+.navbar li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+button {
+    background-color: antiquewhite;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
 .banner {
-    grid-area: banner;
+    --font-size: 14px;
+
+    padding: var(--font-size);
+    background: #eeee;
+    border: 1px solid #dddd;
+    border-radius: 4px;
+    font-size: var(--font-size);
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--font-size);
 }
 
+.banner-icon {
+    margin-right: var(--font-size);
+}
+
+.banner-text {
+    font-family: sans-serif;
+    flex-grow: 1;
+}
 .text_1 {
     grid-area: text_1;
 }
