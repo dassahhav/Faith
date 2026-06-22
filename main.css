@@ -40,16 +40,48 @@
 }
 
 .navbar li a {
-    color: black;
+    color: #FFFF;
+    padding: 10px;
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
+    background-color: #DDE5EE;
 }
 
 
 .banner {
     grid-area: banner;
+    height: 80vh;
+    
+    background:
+        linear-gradient(
+            rgba(30, 58, 95, 0.65),
+            rgba(53, 80, 112, 0.65)
+        ),
+        url("images/nz-faith-banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F4F6F8;
 }
+
+.banner-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    font-size: 1.3rem;
+    max-width: 700px;
+}
+
 .text_1 {
     grid-area: text_1;
 }
