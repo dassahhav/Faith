@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "navbar navbar navbar"
@@ -31,7 +31,7 @@
 .logo a{
     font-size: 35px;
     font-weight: 600;
-    color: black;
+    color: white;
 }
 
 .navbar li {
@@ -40,18 +40,25 @@
 }
 
 .navbar li a {
-    color: #FFFF;
+    text-decoration: none;  
+    color: #fff;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
     background-color: #DDE5EE;
 }
 
+.navbar li a:hover {
+    background: #A8BEDA;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
 
 .banner {
     grid-area: banner;
-    height: 80vh;
+    height: 67vh;
     
     background:
         linear-gradient(
@@ -84,6 +91,10 @@
 
 .text_1 {
     grid-area: text_1;
+    background-color:  rgba(30, 58, 95, 0.65);
+    color: white;
+    align-items: center;
+    text-align: center;
 }
 
 .box_1 {
