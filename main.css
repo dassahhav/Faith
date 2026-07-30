@@ -125,34 +125,244 @@
 
 .box_2 {
     grid-area: box_2;
+     gap: 25px;
+    max-width: 1200px;
+    margin: 50px;
+    padding: 15px;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;  
+}
+
+.box_2 img {
+    width: 90%;
+    height: 100%;
+}
+
+.box_2:hover img {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
 
 .box_3 {
     grid-area: box_3;
+     gap: 25px;
+    max-width: 1200px;
+    margin: 50px;
+    padding: 15px;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;  
+}
+
+.box_3 img {
+    width: 90%;
+    height: 100%;
+}
+
+.box_3:hover img {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
 
 .box_4 {
     grid-area: box_4;
+     gap: 25px;
+    max-width: 1200px;
+    margin: 50px;
+    padding: 15px;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;  
+}
+
+.box_4 img {
+    width: 90%;
+    height: 100%;
+}
+
+.box_4:hover img {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
 
 .box_5 {
     grid-area: box_5;
+     gap: 25px;
+    max-width: 1200px;
+    margin: 50px;
+    padding: 15px;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;  
 }
+
+.box_5 img {
+    width: 90%;
+    height: 100%;
+}
+
+.box_5:hover img {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
 
 .box_6 {
     grid-area: box_6;
+     gap: 25px;
+    max-width: 1200px;
+    margin: 50px;
+    padding: 15px;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;  
+}
+
+.box_6 img {
+    width: 90%;
+    height: 100%;
+}
+
+.box_6:hover img {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+
 }
 
 .box_7 {
     grid-area: box_7;
+     gap: 25px;
+    max-width: 1200px;
+    margin: 50px;
+    padding: 15px;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;  
+}
+
+.box_7 img {
+    width: 90%;
+    height: 100%;
+}
+
+.box_7:hover img {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
 
 .box_8 {
     grid-area: box_8;
+     gap: 25px;
+    max-width: 1200px;
+    margin: 50px;
+    padding: 15px;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;  
+}
+
+.box_8 img {
+    width: 90%;
+    height: 100%;
+}
+
+.box_8:hover img {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
 
 .box_9 {
     grid-area: box_9;
+     gap: 25px;
+    max-width: 1200px;
+    margin: 50px;
+    padding: 15px;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;  
+}
+
+.box_9 img {
+    width: 90%;
+    height: 100%;
+}
+
+.box_9:hover img {
+    transform: scale(1.08);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
 
 .feedback {
