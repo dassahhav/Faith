@@ -1,0 +1,107 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "banner banner banner"
+    "text_1 text_1 text_1"
+    "video_1 video_1 video_1"
+    "footer footer footer"
+    ;
+}
+
+.navbar {
+    grid-area: navbar;
+    text-decoration: none;
+    background: #C8D4E3; 
+    font-family: sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block
+}
+
+.navbar li a {
+    text-decoration: none;  
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+    background-color: #DDE5EE;
+}
+
+.navbar li a:hover {
+    background: #A8BEDA;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.banner {
+    grid-area: banner;
+    height: 67vh;
+    
+    background:
+        linear-gradient(
+            rgba(30, 58, 95, 0.65),
+            rgba(53, 80, 112, 0.65)
+        ),
+        url("images/nz-faith-banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F4F6F8;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    font-size: 1.3rem;
+    max-width: 700px;
+}
+
+.text_1 {
+    grid-area: text_1;
+    background-color: #F4F6F8;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.video_1 {
+    grid-area: video_1;
+    background-color: #C8D4E3;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: antiquewhite;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
