@@ -43,11 +43,11 @@
     font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
-    background-color: #DDE5EE;
+    background-color: #C8D4E3;
 }
 
 .navbar li a:hover {
-    background: #A8BEDA;
+    background: #C8D4E3;
     transform: translateY(-3px);
     box-shadow: 0 8px 15px rgba(0,0,0,0.15);
 }
@@ -71,7 +71,6 @@
     grid-area: text_1;
     background-color:  #DDE5EE;
     color: white;
-    border-radius: 20px;
     align-items: center;
     text-align: center;
     width: 99%;
